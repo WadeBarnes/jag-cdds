@@ -4,7 +4,7 @@ import ca.bc.gov.open.cdds.models.ValidationFailLog;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Arrays;
-import javax.xml.transform.TransformerException;
+import jakarta.xml.transform.TransformerException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ws.context.MessageContext;
 import org.springframework.ws.soap.*;
