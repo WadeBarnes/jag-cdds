@@ -1,4 +1,4 @@
-package ca.bc.gov.open.ccd.test.config;
+package ca.bc.gov.open.cdds.test.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
