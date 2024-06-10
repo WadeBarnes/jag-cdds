@@ -169,22 +169,6 @@
         </dependency> -->
     </dependencies>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.yaml</groupId>
-                <artifactId>snakeyaml</artifactId>
-                <version>1.33</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>2.14.2</version>
-            </dependency>
-
-        </dependencies>
-    </dependencyManagement>
-
     <build>
         <finalName>cdds-application</finalName>
         <plugins>
@@ -294,5 +278,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
